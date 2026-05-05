@@ -1,6 +1,6 @@
 # Dotfiles for my arch linux hyprland setup.
 
-This setup has taken inspiration from creators such as [ @saneAspect ](https://github.com/binnewbs/arch-hyprland#my-hyprland-rice) on youtube and @binnewbs on github.
+This setup has taken inspiration from creators such as [ @saneAspect ](https://youtube.com/@saneaspect?si=xQDl5H73xAwHbEWf) on youtube and [@binnewbs](https://github.com/binnewbs/arch-hyprland#my-hyprland-rice) on github.
 
 Files:
 Hyprland.conf
