@@ -1,4 +1,4 @@
-# Dotfiles for my arch linux hyprland setup.
+# Dotfiles for my Arch󰣇 Linux Hyprland setup.
 
 This setup has taken inspiration from creators such as [ @saneAspect ](https://youtube.com/@saneaspect?si=xQDl5H73xAwHbEWf) on youtube and [@binnewbs](https://github.com/binnewbs/arch-hyprland#my-hyprland-rice) on github.
 
