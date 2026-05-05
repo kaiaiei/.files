@@ -2,8 +2,9 @@
 
 This setup has taken inspiration from creators such as [ @saneAspect ](https://youtube.com/@saneaspect?si=xQDl5H73xAwHbEWf) on youtube and [@binnewbs](https://github.com/binnewbs/arch-hyprland#my-hyprland-rice) on github.
 
-Currently using Matugen
-
+Currently using Matugen with awww.
+Notice - For beginners, make sure to remove any words before the config file will be config.json or etc. EX: rofi-config.rais --> config.rasi
+Use pull requests for contact.
 Still working on it.
 
 <img width="1600" height="900" alt="rice" src="https://github.com/user-attachments/assets/2bf0ca49-83f9-473c-8e6f-63c73200a8ef" />
