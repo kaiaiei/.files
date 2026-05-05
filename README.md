@@ -2,9 +2,7 @@
 
 This setup has taken inspiration from creators such as [ @saneAspect ](https://youtube.com/@saneaspect?si=xQDl5H73xAwHbEWf) on youtube and [@binnewbs](https://github.com/binnewbs/arch-hyprland#my-hyprland-rice) on github.
 
-Files:
-Hyprland.conf
-
+Currently using Matugen
 
 Still working on it.
 
