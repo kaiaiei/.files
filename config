@@ -1,0 +1,21 @@
+# Global settings
+font=monospace 10
+border-size=0
+border-radius=15
+padding=15
+margin=10
+width=300
+height=100
+anchor=top-right
+default-timeout=5000
+background-color=#00000050
+text-color=#ffffff
+border-color=#ffffff
+
+# Critical notifications (urgent alerts)
+[urgency=critical]
+default-timeout=0
+
+# Formatting the notification text
+format=<b>%s</b>\n%b
+
