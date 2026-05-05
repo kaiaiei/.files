@@ -1,4 +1,4 @@
-Dotfiles for my arch linux hyprland setup.
+# Dotfiles for my arch linux hyprland setup.
 
 Files:
 Hyprland.conf
