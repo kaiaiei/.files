@@ -1,3 +1,4 @@
+
 # Dotfiles for my Arch Linux Hyprland setup.
 
 This setup has taken inspiration from creators such as [ @saneAspect ](https://youtube.com/@saneaspect?si=xQDl5H73xAwHbEWf) on youtube and [@binnewbs](https://github.com/binnewbs/arch-hyprland#my-hyprland-rice) on github.
@@ -11,3 +12,4 @@ Still working on it.
 
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/17c8120d-e5d4-426b-a6e3-1465269b8188" />
+<img width="1600" height="900" alt="rice1" src="https://github.com/user-attachments/assets/36a813b3-6a0b-4f00-9118-8f901fdcfdb6" />
