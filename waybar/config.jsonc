@@ -1,0 +1,87 @@
+{
+    "position": "top",    
+    "layer": "bottom",
+    "exclusive": true,
+    
+    "modules-left": ["custom/arch", "clock", "custom/spotify"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["custom/wifi", "pulseaudio", "custom/power"],
+
+    "clock": {
+        "format-alt": "{:%b %d %a  %H:%M}",
+        "tooltip": false,
+	"on-click-right": "kitty -e minical"
+    },
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "format-icons": {
+            "A": " ",
+            "B": " ",
+            "C": " ",
+            "D": " ",
+            "E": " ",
+            "active": " ",
+            "default": " "
+        },
+        "persistent-workspaces": {
+            "*": 5,
+            "HDMI-A-1": 5
+        }
+    },
+
+    "hyprland/window": {
+        "format": "",
+        "rewrite": {
+            "(.*) Mozilla Firefox": "$1",
+            "(.*) - fish": "> [$1]"
+        },
+        "separate-outputs": true
+    },
+
+    "custom/wifi": {
+        "exec": "nmcli -t -f ACTIVE,SSID dev wifi | grep '^yes' | cut -d: -f2",
+        "format": " {}     ",
+        "interval": 5,
+        "tooltip": false,
+	"on-click": "kitty -e nmtui"
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% {icon} ",
+        "format-bluetooth": "{volume}% {icon}  ",
+        "format-muted": "  ",
+        "format-icons": {
+            "headphone": "  ",
+            "hands-free": "  ",
+            "headset": "  ",
+            "phone": "  ",
+            "portable": "  ",
+            "car": "  ",
+            "default": ["  ", "  "]
+        },
+        "scroll-step": 1,
+        "on-click": "kitty -e wiremix",
+	"on-click-right": "kitty -e bluetui",
+        "tooltip": false
+    },
+    "custom/spotify": {
+        "exec": "playerctl metadata --format '{{artist}} - {{title}}' 2> /dev/null",
+        "format": "   {}",
+        "interval": 2,
+        "max-length": 30,
+        "tooltip": false
+    },
+
+    "custom/power": {
+        "format": " ⏻  ",
+        "on-click": "/home/kai/.local/bin/wlogout-hide",
+        "tooltip": false
+    },
+    "custom/arch": {
+	"format": "󰣇 ",
+	"on-click": "rofi -show run",
+	"on-click-right": "kitty",
+	"tooltip": false
+    }
+}
